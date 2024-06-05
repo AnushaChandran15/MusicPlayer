@@ -1,0 +1,66 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="stylesheet" href="Style.css" type="text/css">
+        <script src="Script.js"  defer></script>
+        <script src="https://kit.fontawesome.com/28c9b452c3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="musicPlayer">
+                    <div id="head" class="head">
+     <span><i class="fa-solid fa-music"></i>&nbsp;&nbsp;Music Player</span>
+                        <i id="music-list-bar" class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="img-area"> 
+                        <img id="img" src="./assets/Selena-Gomez-img.jpg" alt="">
+                    </div>
+                    <div class="song-details">
+                        <marquee  class="sd" id="song">song name</marquee>
+                        <span class="sd" id="artist">Artist</span>
+                    </div>
+
+                    <div id="playing" class="progress-area">
+                
+                        <div id="progressbar" class="progress-bar">
+                        <div id="thumb"></div>
+
+                            <audio id="main-audio" src=""></audio>
+                        </div>
+
+
+                    <div class="timer">
+                        <span class="current-timer">0:00</span>
+                        <span class="current-timer">0:00</span>
+                    </div>
+                </div>
+
+
+                    <div class="controls-bars">
+
+                 <i  id="repeat" class="fa-solid fa-repeat" title="repeat"></i>
+
+             <i id="prev" class="fa-solid fa-backward-step" title="Previous"></i>
+
+             <div id="play" title="Play/Pause">
+    <i id="playPause" class="fa-solid fa-play"></i>
+                 </div>
+                     
+                    <i id="next" class="fa-solid fa-forward-step" title="forward"></i>
+
+                            <i id="shuffle" class="fa-solid fa-shuffle" title="shuffle"></i>
+
+                    </div>
+                    <div class="music-list">
+                        <div class="header">
+                            <div class="row">
+
+                            </div>
+                        </div>
+                    </div>
+        </div>
+
+    </body>
+</html>
+

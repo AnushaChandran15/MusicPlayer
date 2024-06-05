@@ -1,0 +1,30 @@
+[
+    {
+        "title":"Who Says",
+        "artist":"Selena GomeZ",
+        "image":"./assets/Selena-Gomez-img.jpg",
+        "path":"./assets/Who-Says.mp3"
+    },
+
+    {
+        "title":"Beliver",
+        "artist":"Imagine Dragons",
+        "image":"./assets/believer-img",
+        "path":"./assets/Beliver.mp3"
+    },
+
+    {
+        "title":"Let it go",
+        "artist":"Idina Menzal",
+        "image":"./assets/idinaMenzel-let-it-go.jpg",
+        "path":"./assets/Let-it-go.mp3"
+    },
+
+    {
+        "title":"Pickup the phone",
+        "artist":"Henry Moodie",
+        "image":"./assets/HenryMoodie-pickup-the-phone",
+        "path":"./assets/Picup-the-phone.mp3"
+    }
+]
+
