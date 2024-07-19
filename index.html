@@ -3,12 +3,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-        <link rel="stylesheet" href="Style.css" type="text/css">
-        <script src="Script.js"  defer></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="script.js"  defer></script>
         <script src="https://kit.fontawesome.com/28c9b452c3.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="musicPlayer">
+        <div id="musicPlayer"class="musicPlayer">
                     <div id="head" class="head">
      <span><i class="fa-solid fa-music"></i>&nbsp;&nbsp;Music Player</span>
                         <i id="music-list-bar" class="fa-solid fa-bars"></i>
@@ -17,7 +17,7 @@
                         <img id="img" src="./assets/Selena-Gomez-img.jpg" alt="">
                     </div>
                     <div class="song-details">
-                        <marquee  class="sd" id="song">song name</marquee>
+                        <marquee  class="sd" id="songHeading">song name</marquee>
                         <span class="sd" id="artist">Artist</span>
                     </div>
 
@@ -51,16 +51,13 @@
 
                             <i id="shuffle" class="fa-solid fa-shuffle" title="shuffle"></i>
 
-                    </div>
-                    <div class="music-list">
-                        <div class="header">
-                            <div class="row">
-
-                            </div>
-                        </div>
-                    </div>
+                    </div>           
         </div>
+        <div id="my-musics" class="my-musics">
+            <span class="header"><i class="fa-solid fa-music"></i>&nbsp;&nbsp;My Music</span>
+            <div id="musics" class="musics"></div>
+        </div>
+        <section id="bg"></section>
 
     </body>
 </html>
-

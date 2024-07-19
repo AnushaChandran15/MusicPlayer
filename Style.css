@@ -102,7 +102,7 @@ body
     color: #515c6f;
     padding: 5px;
 }
-#song
+#songHeading
 {
     font-size: 21px;
 }
@@ -195,3 +195,96 @@ body
     align-items: center;
     justify-content: center;
 }
+.my-musics
+{
+    width:380px;
+    height:585px;
+    border-radius: 15px;
+    padding: 25px 30px;
+    background: var(--white);
+    box-shadow: 0px 6px 15px var(--lightshadow);
+    margin-left:0.5%;
+}
+.my-musics.show
+{
+    display: block;
+}
+.musicPlayer.move-left
+{
+    position: absolute;
+    left:310px;
+}
+.musics {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow-y:scroll;
+}
+.my-musics
+{
+    display: none;
+    position: absolute;
+    left: 700px;
+    width:380px;
+    border-radius: 15px;
+    padding: 25px 30px;
+    background: var(--white);
+    box-shadow: 0px 6px 15px var(--lightshadow);
+}
+
+.musics::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: transparent;
+}
+.music
+{
+
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 95%;
+	height: 40px;
+	background-color: #f3f3f3;
+	gap: 2px;
+	cursor: pointer;
+}
+.music:hover
+{
+	filter: brightness(0.95);
+    text-align: center;
+}
+.music > p 
+{
+	margin-left: 1rem;
+    /* color:black; */
+    font-family:'Segoe UI';
+    
+}
+.header
+{
+    color: black;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+#art
+{
+    color:crimson;
+    margin-left:2rem;
+    font-size: 12px;
+}
+#song
+{
+    color: brown;
+    font-size: 14px;
+}
+.header i
+{
+    font-size: 25px;
+    color: var(--lightblack);
+}
+
